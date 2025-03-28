@@ -1,2 +1,2 @@
 # DB_Mysql
-Proyecto desarrollando una base de datos.
+Desarrollo de una base de datos.
