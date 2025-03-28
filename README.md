@@ -1,5 +1,6 @@
 # Base de datos relacional
 >   Este es mi primer proyecto creado usando la herramienta MysqlWorkbench(SGDB)
+
 >   Una base que se encarga de las ventas de helados
 
  **Contenidos:**
