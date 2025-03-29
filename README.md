@@ -1,9 +1,9 @@
-# Base de datos relacional
->   Este es mi primer proyecto basico creado usando la herramienta MysqlWorkbench(SGDB)
+# 🍨Gestion de ventas de helados
+>   Este es mi primer proyecto creado usando la herramienta MysqlWorkbench(SGDB)
 
 >   Una base que se encarga de las ventas de helados
 
- **Contenidos:**
+ **EMOJICODE: Contenidos:**
 - DER(Diagrama entidad relacion)/Normalizacion
 - Creacion de las entidades y sus relaciones con sus atributos
 - Inserciones de datos
