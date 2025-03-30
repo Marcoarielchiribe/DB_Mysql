@@ -10,7 +10,7 @@ GRANT SELECT, UPDATE ON VentasHelados.* TO 'Administrador1'@'localhost'; -- .* t
 -- Ver los privilegios del usuario
 SHOW GRANTS FOR 'Administrador1'@'localhost'; 
 
--- Mosstrar los usuarios creados
+-- Mostrar los usuarios creados
 SELECT * FROM mysql.USER; 
 
 -- Eliminar todos los permisos del usuario
