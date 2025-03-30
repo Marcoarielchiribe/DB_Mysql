@@ -10,8 +10,8 @@ CREATE TRIGGER  Trg_Historico_clientes
 BEFORE INSERT ON cliente
 FOR EACH ROW
 BEGIN
-	INSERT INTO HISTORICO_CLIENTES (id_cliente, Nombre, Apellido, Correo, DNI, Fecha_hora, operaciones)
-    VALUES(NEW.idCliente, NEW.Nombre, NEW.Apellido, NEW.Correo, NEW.DNI, NOW(),'NUEVO REGISTRO');
+	INSERT INTO HISTORICO_CLIENTES (id_cliente, Nombre, Apellido, Correo, DNI, Fecha_hora, operaciones) VALUES
+		(NEW.idCliente, NEW.Nombre, NEW.Apellido, NEW.Correo, NEW.DNI, NOW(),'NUEVO REGISTRO');
 END $$
 
 DESCRIBE Cliente;
@@ -42,7 +42,7 @@ AFTER UPDATE ON cliente
 FOR EACH ROW
 BEGIN
 	INSERT INTO historico_clientes (id_cliente, Nombre, Apellido, Correo, DNI, Fecha_hora, operaciones, Usuario) VALUES
-								   (NEW.idCliente, NEW.Nombre, NEW.Apellido, NEW.Correo, NEW.DNI, NOW(), 'REGISTRO ACTUALIZADO', USER());
+		(NEW.idCliente, NEW.Nombre, NEW.Apellido, NEW.Correo, NEW.DNI, NOW(), 'REGISTRO ACTUALIZADO', USER());
 END;
 //
 
