@@ -1,7 +1,7 @@
 # 🍨Gestion de ventas de helados
 >   Este es mi primer proyecto creado usando la herramienta MysqlWorkbench(SGDB)
 
- **Contenidos:**
+ **📌 Contenidos:**
 - DER(Diagrama entidad relacion)/Normalizacion
 - Creacion de las entidades y sus relaciones con sus atributos
 - Inserciones de datos
