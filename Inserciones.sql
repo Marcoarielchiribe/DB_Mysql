@@ -3,16 +3,16 @@ USE VentasHelados;
 
 -- INSERCIONES EN LAS TABLAS
 INSERT INTO sabores  (`nombre`, `precio`, `kilogramos`) VALUES
-		     ('Americana', 1900, 2200),
-		     ('Vainilla', 2000, 2500),
-                     ('Chocolate', 1800,2300),
-                     ('Dulce de leche', 2100,2600), 
-                     ('Frutilla al agua', 1700, 2700),
-                     ('Frutos del Bosque', 1600, 2400),
-                     ('Durazno', 1300, 2200),
-                     ('Bananita dolce', 2400,2800),
-                     ('Banana splits', 2600,2700),
-                     ('Mantecol', 2300,2200);
+		     ('Americana', 1900, 2.200),
+		     ('Vainilla', 2000, 2.500),
+                     ('Chocolate', 1800,2.300),
+                     ('Dulce de leche', 2100,2.600), 
+                     ('Frutilla al agua', 1700, 2.700),
+                     ('Frutos del Bosque', 1600, 2.400),
+                     ('Durazno', 1300, 2.200),
+                     ('Bananita dolce', 2400,2.800),
+                     ('Banana splits', 2600,2.700),
+                     ('Mantecol', 2300,2.200);
 
 INSERT INTO Cliente (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `dni`,`idlocalidad`) VALUES
 		    ('Lautaro','Rivera', 114508-0344,'LautiRivera@hotmail.com','Av H Yrigoyen y Acevedo 567',36233087,1),
