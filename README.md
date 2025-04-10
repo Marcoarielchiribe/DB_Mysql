@@ -1,4 +1,4 @@
-# 🍨Gestion de ventas de helados - Mysql
+# 🍨Gestion de ventas de helados - MySQL
 >   Este es mi primer proyecto creado usando la herramienta MysqlWorkbench(SGDB)
 
  **📌 Contenidos:**
