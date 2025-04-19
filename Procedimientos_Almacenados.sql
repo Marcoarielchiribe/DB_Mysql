@@ -179,14 +179,14 @@ CALL SP_InsertSabores('Frambuesa',1950,2240);
 DROP PROCEDURE IF EXISTS SP_ActualizacionClientes;
 DELIMITER //
 CREATE PROCEDURE SP_ActualizacionClientes(
-	IN idcliente INT,
-    IN nombre VARCHAR(30),
-    IN apellido VARCHAR(30),
-    IN telefono CHAR(11),
-	IN correo VARCHAR(50),
-	IN direccion VARCHAR(100),
-	IN dni CHAR(8),
-    IN idlocalidad INT
+   IN idcliente INT,
+   IN nombre VARCHAR(30),
+   IN apellido VARCHAR(30),
+   IN telefono CHAR(11),
+   IN correo VARCHAR(50),
+   IN direccion VARCHAR(100),
+   IN dni CHAR(8),
+   IN idlocalidad INT
 )
 BEGIN
 	BEGIN
