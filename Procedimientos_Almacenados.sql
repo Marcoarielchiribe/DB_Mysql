@@ -151,7 +151,7 @@ DROP PROCEDURE IF EXISTS SP_InsertSabores
 DELIMITER //
 CREATE PROCEDURE SP_InsertSabores(
      IN nombre VARCHAR(30),
-	 IN precio SMALLINT,
+     IN precio SMALLINT,
      IN kilogramos INT
 )	 
 BEGIN
