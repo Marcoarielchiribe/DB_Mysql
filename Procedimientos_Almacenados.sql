@@ -54,7 +54,8 @@ CREATE PROCEDURE SP_Mayor_monto_total_Factura()
 BEGIN
 	SELECT idFactura, idCliente, MAX(monto_total) AS 'Monto Total' FROM factura
 	GROUP BY idfactura
-	ORDER BY Monto_total DESC LIMIT 1;
+	ORDER BY Monto_total DESC 
+	LIMIT 1;
 END
 //
 
@@ -108,7 +109,8 @@ DELIMITER //
 CREATE PROCEDURE SP_UltimaFechaFacturacion()
 BEGIN
 	SELECT idFactura, MAX(fecha) AS 'Fecha', monto_total, idCliente FROM factura
-	GROUP BY idFactura ORDER BY fecha DESC
+	GROUP BY idFactura 
+	ORDER BY fecha DESC
 	LIMIT 1;
 END
 //
@@ -121,7 +123,9 @@ DELIMITER //
 CREATE PROCEDURE SP_Facturacionxmes()
 BEGIN
 	SET lc_time_names = 'es_ES'; -- seteo los meses del año en español
-	SELECT COUNT(idfactura) AS 'total facturas',MONTHNAME(fecha) AS 'Meses Facturaciones' FROM factura
+	SELECT COUNT(idfactura) AS 'total facturas',
+	       MONTHNAME(fecha) AS 'Meses Facturaciones'
+	  FROM factura
 	GROUP BY MONTHNAME(fecha);
 END
 //
