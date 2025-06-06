@@ -23,8 +23,9 @@ INSERT INTO Cliente VALUES (10,'Roman','Fernandez', 112693-9573,'Romanfz@gmail.c
 DELIMITER //
 CREATE TRIGGER Trg_Precios_Negativos
 BEFORE INSERT ON `sabores` 
-FOR EACH ROW BEGIN
-	IF NEW. precio < 0 THEN
+FOR EACH ROW
+BEGIN
+    IF NEW. precio < 0 THEN
     SET NEW.precio = 0;
     END IF;
 END
