@@ -130,6 +130,8 @@ BEGIN
 END
 //
 
+CALL SP_Facturacionxmes();
+
 -- procedimiento almacenado mostrando  informacion de las factura de los clientes por su id
 DROP PROCEDURE IF EXISTS SP_IdFacturaClientes;
 DELIMITER //
