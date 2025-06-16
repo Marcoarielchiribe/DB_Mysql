@@ -1,5 +1,5 @@
 # 🍨Gestion de ventas de helados - MySQL
->   Este es mi primer proyecto de base de datos relacional creado usando la herramienta MysqlWorkbench(SGDB)
+>   Este es mi primer proyecto de base de datos relacional creado usando la herramienta MysqlWorkbench(SGDB) en el curso de bases de datos de Tecno3F
 
  **📌 Contenidos:**
 - DER(Diagrama entidad relacion)/Normalizacion
