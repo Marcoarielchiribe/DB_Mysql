@@ -3,7 +3,7 @@
 
  **📌 Contenidos:**
 - DER(Diagrama entidad relacion)/Normalizacion
-- Creacion de las entidades y sus relaciones con sus atributos
+- Creacion de las entidades y relaciones con sus atributos
 - Inserciones de datos
 - Creación de vistas(Views)
 - Creación de procedimientos(Stored Procedure)
