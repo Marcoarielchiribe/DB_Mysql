@@ -35,7 +35,7 @@ DESCRIBE sabores;
 INSERT INTO sabores VALUES (NULL,'S011', 'Pistacho', -1000, 2100);
 SELECT nombre, precio FROM sabores;
 
--- Si hay una actualizacion en clientes inserta seguimiento del registro en la tabla historico clientes
+-- Si hay una actualizacion en clientes, inserta seguimiento del registro en la tabla historico clientes
 -- DROP TRIGGER Trg_UpdateClientes;
 DELIMITER //
 CREATE TRIGGER Trg_UpdateClientes
